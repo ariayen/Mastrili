@@ -1,0 +1,40 @@
+body {
+  font: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#text-color {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin-top: 100px;
+}
+
+.color-option {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#output-text {
+  margin-top: 50px;
+  font-size: 20px;
+}

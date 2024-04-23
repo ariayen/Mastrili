@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flag Guessing Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Flag Guessing Game</h1>
+    <label for="difficulty">Select Difficulty:</label>
+    <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+    <br><br>
+    <img src="" alt="Flag Image" id="flag-image">
+    <div id="message"></div>
+    <br><br>
+    <div id="options"></div>
+    <p id="score">Score: <span id="points">0</span></p>
+    <p id="timer">Time Left: <span id="time">0</span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
